@@ -1,4 +1,4 @@
-package com.accesa.price_comparator.interfaces;
+package com.accesa.price_comparator.interfacesRepo;
 
 import com.accesa.price_comparator.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -8,5 +8,4 @@ import java.util.List;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, String> {
     List<Product> findByProductNameContainingIgnoreCase(String name);
-
 }

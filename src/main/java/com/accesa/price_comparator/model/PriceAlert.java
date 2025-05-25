@@ -12,7 +12,6 @@ public class PriceAlert {
     @Id
     @GeneratedValue
     private Long id;
-
     private String productId;
     private String storeName;
     private double targetPrice;

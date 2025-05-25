@@ -1,6 +1,6 @@
 package com.accesa.price_comparator.service;
 
-import com.accesa.price_comparator.interfaces.*;
+import com.accesa.price_comparator.interfacesRepo.*;
 import com.accesa.price_comparator.model.*;
 import com.accesa.price_comparator.utils.DiscountItemDTO;
 import com.accesa.price_comparator.utils.NewDiscountDTO;
@@ -8,7 +8,6 @@ import com.accesa.price_comparator.utils.PricePointDTO;
 import com.accesa.price_comparator.utils.ProductUnitPriceDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;

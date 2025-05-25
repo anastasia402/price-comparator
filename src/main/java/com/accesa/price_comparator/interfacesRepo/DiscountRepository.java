@@ -1,4 +1,4 @@
-package com.accesa.price_comparator.interfaces;
+package com.accesa.price_comparator.interfacesRepo;
 
 import com.accesa.price_comparator.model.Discount;
 import com.accesa.price_comparator.model.Product;

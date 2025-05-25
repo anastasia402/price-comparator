@@ -1,9 +1,9 @@
 package com.accesa.price_comparator.service;
 
-import com.accesa.price_comparator.interfaces.DiscountRepository;
-import com.accesa.price_comparator.interfaces.PriceRecordRepository;
-import com.accesa.price_comparator.interfaces.ProductRepository;
-import com.accesa.price_comparator.interfaces.StoreRepository;
+import com.accesa.price_comparator.interfacesRepo.DiscountRepository;
+import com.accesa.price_comparator.interfacesRepo.PriceRecordRepository;
+import com.accesa.price_comparator.interfacesRepo.ProductRepository;
+import com.accesa.price_comparator.interfacesRepo.StoreRepository;
 import com.accesa.price_comparator.model.Discount;
 import com.accesa.price_comparator.model.PriceRecord;
 import com.accesa.price_comparator.model.Product;
@@ -12,7 +12,6 @@ import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReaderBuilder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.io.FileReader;
 import java.time.LocalDate;
 import java.util.List;

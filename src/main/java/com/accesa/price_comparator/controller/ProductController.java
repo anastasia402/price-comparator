@@ -1,22 +1,17 @@
 package com.accesa.price_comparator.controller;
 
 import com.accesa.price_comparator.model.BasketItem;
-import com.accesa.price_comparator.model.Discount;
 import com.accesa.price_comparator.model.PriceAlert;
-import com.accesa.price_comparator.model.Product;
 import com.accesa.price_comparator.service.CsvImporterService;
 import com.accesa.price_comparator.service.ProductService;
 import com.accesa.price_comparator.utils.BasketRequestDTO;
-import com.accesa.price_comparator.utils.DiscountItemDTO;
 import com.accesa.price_comparator.utils.PricePointDTO;
 import com.accesa.price_comparator.utils.ProductUnitPriceDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor

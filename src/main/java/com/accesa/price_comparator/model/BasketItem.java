@@ -12,6 +12,4 @@ public class BasketItem {
     private int discountPercent;
     private double finalPrice;
     private String currency;
-
-    public BasketItem() {}
 }
