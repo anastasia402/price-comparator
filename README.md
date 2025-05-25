@@ -90,5 +90,4 @@ P001;lapte zuzu;Zuzu;1;l;lactate;2025-05-10;2025-05-14;10
 - **GET** `/products/check?date=2025-05-10`
     - Verifică dacă alertele sunt declanșate pentru o zi
     - ex: /products/check?date=2025-05-10
-
 ---
