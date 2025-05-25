@@ -8,6 +8,7 @@ import com.accesa.price_comparator.utils.PricePointDTO;
 import com.accesa.price_comparator.utils.ProductUnitPriceDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -81,7 +82,7 @@ public class ProductService {
                 double finalPrice = originalPrice * (100 - discountPercent) / 100.0;
 
                 result.add(new DiscountItemDTO(discount.getProduct().getProductName(), discount.getStore().getName(), originalPrice, discountPercent, finalPrice, price.getCurrency()));
-                if (result.size() == 5){
+                if (result.size() == 5) {
                     break;
                 }
             }

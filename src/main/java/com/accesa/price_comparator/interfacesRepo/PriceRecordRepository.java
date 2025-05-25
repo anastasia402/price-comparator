@@ -4,6 +4,7 @@ import com.accesa.price_comparator.model.PriceRecord;
 import com.accesa.price_comparator.model.Product;
 import com.accesa.price_comparator.model.Store;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

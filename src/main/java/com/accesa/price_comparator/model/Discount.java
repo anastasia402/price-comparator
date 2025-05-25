@@ -33,6 +33,7 @@ public class Discount {
         this.percentageOfDiscount = percentageOfDiscount;
     }
 
-    public Discount() {}
+    public Discount() {
+    }
 }
 

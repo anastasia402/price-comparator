@@ -20,7 +20,4 @@ public interface DiscountRepository extends JpaRepository<Discount, Long> {
 
     @Query("SELECT d FROM Discount d WHERE d.fromDate > :start AND d.fromDate <= :end")
     List<Discount> findNewDiscountsInWindow(@Param("start") LocalDate start, @Param("end") LocalDate end);
-
-
-
 }
